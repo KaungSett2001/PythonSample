@@ -1,0 +1,33 @@
+#week 2A 14.9.2019
+print('"I can do everything Nothing impossible"')
+print("'I can do everything Nothing impossible'")
+
+>>>x="Hello World"
+print(x)
+
+ print("doesn\'t") #use \ to escape the single quote
+ print("doesn't")  #or use double quotes instead
+
+ x='Hello' + ' ' + 'world'
+ 5 * 'Hello' + 'World' 
+
+ 'Hello' + str('3')
+ int('3') + 3
+
+x = "Programming"
+  x[6]
+  x[0]
+  x[0:6]
+  x[1:5]
+'rogr'
+  x[:7]
+'Program'
+  x[8:]
+'ing'
+  x[:]
+'Programming'
+  x[]
+ >>> x[]-4
+ >>> x[-4]
+ >>> x[5:-4]
+ >>> x[-5:0]

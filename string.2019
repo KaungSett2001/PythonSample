@@ -1,0 +1,81 @@
+#week 2A 14.9.2019
+print('"I can do everything Nothing impossible"')
+print("'I can do everything Nothing impossible'")
+
+>>>x="Hello World"
+print(x)
+
+ print("doesn\'t") #use \ to escape the single quote
+ print("doesn't")  #or use double quotes instead
+
+ x='Hello' + ' ' + 'world'
+ 5 * 'Hello' + 'World' 
+
+ 'Hello' + str('3')
+ int('3') + 3
+
+x = "Programming"
+  x[6]
+  x[0]
+  x[0:6]
+  x[1:5]
+'rogr'
+  x[:7]
+'Program'
+  x[8:]
+'ing'
+  x[:]
+'Programming'
+  x[]
+ >>> x[]-4
+ >>> x[-4]
+ >>> x[5:-4]
+ >>> x[-5:0]
+>>> x[0] = 'q'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+
+x = "Programming"  #String
+word = [1, 3,  5, 7, 9, 11, 13] #List
+
+>>> x[-4]
+'m'
+>>> x[5:-4]
+'am'
+>>> x[-5:0]
+''
+>>> x[:3] + x[4:]
+'Proramming'
+>>> x[:3] * 5
+'ProProProProPro'
+>>> x[:3] + " " * 5
+'Pro     '
+>>> (x[:3] + " ")  * 5
+'Pro Pro Pro Pro Pro '
+>>> x = "Programming"
+>>> x[0:4] + "ram"
+'Program'
+>>> x[0:5] + 'python'
+'Progrpython'
+
+>>> word + word
+[1, 3, 5, 7, 9, 11, 13, 15, 1, 3, 5, 7, 9, 11, 13, 15]
+>>> word[:] + [2, 4, 6, 8,10]
+[1, 3, 5, 7, 9, 11, 13, 15, 2, 4, 6, 8, 10]
+
+>>>a=[1,3,5,7,9]
+>>> b=[2,4,6,8,10]
+>>> c = ["A","B","C","D","E"]
+>>> x=a + b + c
+>>> x
+[1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 'A', 'B', 'C', 'D', 'E']
+>>> x= a + b
+>>> x
+[1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
+>>> x= [a , b ,c]
+>>> x[1:3]
+[[2, 4, 6, 8, 10], ['A', 'B', 'C', 'D', 'E']]
+>>> x[1][1]
+4
+
